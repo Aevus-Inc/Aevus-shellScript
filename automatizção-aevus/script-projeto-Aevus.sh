@@ -102,7 +102,7 @@ services:
     depends_on:
       - mysql
     environment:
-      - SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+      - SLACK_WEBHOOK_URL=ADIONAR O URL DO SLACK AQUI!!
 
   mysql:
     image: mysql:8
